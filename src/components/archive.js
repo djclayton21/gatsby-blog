@@ -3,7 +3,7 @@ import { graphql, useStaticQuery, Link } from "gatsby";
 
 const POST_ARCHIVE_QUERY = graphql`
   query ArchiveQuery {
-    allMarkdownRemark(sort: { order: ASC, fields: frontmatter___date }) {
+    allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
       nodes {
         frontmatter {
           title
