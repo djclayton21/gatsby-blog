@@ -1,6 +1,6 @@
 ---
-slug: "/first-post"
-title: "First Post"
+slug: first-post
+title: First Post
 date: 2020-04-20
 ---
 

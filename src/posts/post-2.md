@@ -1,5 +1,5 @@
 ---
-slug: /second-post
+slug: second-post
 date: 2020-04-21
 title: The Second Post
 ---

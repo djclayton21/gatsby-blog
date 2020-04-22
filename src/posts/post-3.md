@@ -1,5 +1,5 @@
 ---
-slug: /third-post
+slug: third-post
 date: 2020-04-22
 title: Another Post
 ---
