@@ -7,7 +7,6 @@ import logo from '../images/logo.svg'
 const HeaderWrapper = styled.div`
   background: #524763;
   padding: 1rem;
-  margin-bottom: 1.45rem;
   h1 {
     margin: 0;
     color: white;

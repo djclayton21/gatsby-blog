@@ -15,10 +15,10 @@ export const query = graphql`
   }
 `;
 
-function PostLayout({ data }) {
+function PostLayout({ data, location }) {
   const { frontmatter, html } = data.markdownRemark;
   return (
-    <Layout>
+    <Layout location={location}>
       <h1>{frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>

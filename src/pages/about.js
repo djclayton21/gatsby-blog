@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from '../components/layout'
 
-function About() {
+function About({location}) {
   return (
-    <Layout>
+    <Layout location={location}>
       <h1>About us</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam
