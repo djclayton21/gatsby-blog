@@ -20,13 +20,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Tutorial Blog`,
+        short_name: `blog`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#524736`,
+        theme_color: `#524763`,
         display: `minimal-ui`,
-        icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
     {
@@ -39,6 +38,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-styled-components`,
     `gatsby-image`,
+    `gatsby-plugin-offline`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,
   ],
