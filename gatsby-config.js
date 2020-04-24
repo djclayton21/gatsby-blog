@@ -3,6 +3,7 @@ module.exports = {
     title: `LUT Blog`,
     description: `Blog created following Level Up Pro gatsby 2 tutorial`,
     author: `Dan`,
+    siteUrl: `https://blissful-morse-cb707b.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +16,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -38,6 +40,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-image`,
     `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-netlify`
+    `gatsby-plugin-netlify`,
   ],
 };
